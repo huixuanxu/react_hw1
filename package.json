@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -17,5 +18,9 @@
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
     "vite": "^4.1.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/huixuanxu/react_hw1.git",
+  "author": "hsu <angel911024a@gmail.com>",
+  "license": "MIT"
 }
