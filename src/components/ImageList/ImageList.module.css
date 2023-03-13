@@ -1,0 +1,41 @@
+.imageLayout {
+    display:flex;
+    background-color: #fff;
+    font-size: 1rem;
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+
+/* Descriptions Style */
+.descriptionLayout {
+    display:flex;
+    background-color: #00979c;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: white;
+  }
+  
+  @media screen and (min-width: 768px) {
+     .descriptionLayout {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+  }
+  
+.descriptionContent {
+    text-indent: 1.7rem;
+    padding-top: 10px;
+    line-height: 1.7em;
+    text-indent:1.7em;
+  }
+
+.slogan{
+    font-size: 2.5rem;
+    font-weight: 100;
+    text-align: center;
+    margin: 5px;
+}
+  
+.h1{
+    text-align: center;
+}
