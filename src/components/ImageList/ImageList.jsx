@@ -1,13 +1,16 @@
 import Imageitem from "../Imageitem/Imageitem";
 import images from "../../json/images.json";
-import { Row, Col } from "antd";
+import { Row, Col} from "antd";
 import styles from "./ImageList.module.css";
+//import { LoadingOutlined } from '@ant-design/icons';
+//import { Spin } from 'antd';
 
-export default function ImageList() {
+export default function ImageList({images, isLoading}) {
+
     return (
         <div>
-            <article className={styles.imageLayout}>
-                <div className="container">
+           <article className={styles.imageLayout}>
+               <div className="container">
                     <h1 className={styles.slogan}>IMAGES</h1>
                     <hr className="divider--dark" />
                     <Row gutter={[32, 32]}>
@@ -24,6 +27,7 @@ export default function ImageList() {
                     </Row>
                 </div>
             </article>
+          
             <article className={styles.descriptionLayout}>
                 <div className="container">
                     <h1 className={styles.slogan}>DESCRIPTIONS</h1>
